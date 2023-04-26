@@ -2,7 +2,7 @@
 #include <vector>
 
 int main() {
-    std::string text = "  this   is  a sentence ";
+    std::string text = " practice   makes   perfect";
 
     int space_counter = 0;
     std::string word;
@@ -11,9 +11,13 @@ int main() {
     for (int i = 0; i < text.length(); i++) {
         if (text[i] != 32) {
             word.push_back(text[i]);
-            if(text[i+1] == 32){
+            if(i+1 != text.size()) {
+                if (text[i + 1] == 32) {
+                    words.push_back(word);
+                    word = "";
+                }
+            }else {
                 words.push_back(word);
-                word = "";
             }
         }else {
             space_counter++;
