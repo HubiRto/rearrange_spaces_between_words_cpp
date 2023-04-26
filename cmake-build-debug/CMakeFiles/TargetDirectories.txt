@@ -1,0 +1,3 @@
+C:/Users/Hubert/CLionProjects/rearrange-spaces-between-words/cmake-build-debug/CMakeFiles/rearrange_spaces_between_words.dir
+C:/Users/Hubert/CLionProjects/rearrange-spaces-between-words/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Hubert/CLionProjects/rearrange-spaces-between-words/cmake-build-debug/CMakeFiles/rebuild_cache.dir
